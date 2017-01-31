@@ -1,0 +1,132 @@
+body{
+	background-color:black;
+	background-image:url("images/gradient-wallpaper-1.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	color:rgb(255, 255, 255);		
+	font-family:georgia, serif;
+	text-shadow:1px 1px black;
+	font-size:20px;
+}
+h1{
+	text-shadow:2px 2px black;
+	font-size:55px;
+	text-align:center;
+	border-top-style:solid;
+	border-color:white;
+}	
+h2{
+	text-shadow:2px 2px black;
+	font-size:45px;
+	text-align:center;
+}
+h3{
+	font-size:28px;
+	color:rgb(200,250,255);
+}
+a{
+	color:white;
+}
+ul,ol{
+	padding-left:50px;
+	padding-bottom:60px;
+	padding-top:20px;
+	float:left;
+	list-style:upper-roman;
+}
+#serj-home{
+	border-color:rgb(170,170,170);
+	border-style:solid;
+	border-top:double;
+	border-bottom:double;
+	border-top-width:3em;
+	border-right-width:20em;
+	width:700px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+#serj-child{
+	float:left;
+	padding:40px;
+}
+#serj-grad{
+	float:right;
+	padding:40px;
+} 
+#intro{ 
+	margin:60px 100px 40px 350px;
+}
+
+#serj-hat{
+	border-style:solid;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+#soad, #serj-hara{
+	border-style:solid;
+	float:left;
+	margin-right: 50px;
+	margin-left:20px;
+	margin-bottom: 20px;
+}
+#cover-hara{
+	border-style:solid;
+	float:right;
+	margin-right: 250px;
+}
+.sect{
+	float:left;
+	width:24.5%;
+	text-align:center;
+	padding-top:15px;
+	padding-bottom:20px;
+	font-size:30px;
+	border-style:inset;
+}
+.sect:hover{
+	color:gray;
+	background-color:white;
+}
+.sect:active{
+	border-color:black;
+	color:white;
+	background-color:black;
+}
+.bio-text{
+	text-align:center;
+	margin-left:200px;
+	margin-right:200px;
+}
+.mhis{
+	margin-left:20px;
+	margin-right:20px;
+}
+.bold{
+	font-weight:bold;
+}
+.italic{
+	font-style:italic;
+}
+.lyrics{
+	text-align:center;
+	margin-top: 30px;
+	margin-bottom:30px;
+}
+.link-left{
+	padding-left:60px;
+	border-style:double;
+	margin-right:700px;
+	margin-left:100px;
+	margin-bottom:50px;
+}
+.link-right{
+	margin-bottom:50px;
+	margin-right:100px;
+	padding-right:60px;
+	padding-left:60px;
+	float:right;
+	border-style:double;
+}
