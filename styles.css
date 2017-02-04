@@ -55,9 +55,7 @@ ul,ol{
 	float:right;
 	padding:40px;
 } 
-#intro{ 
-	margin:60px 100px 40px 350px;
-}
+
 
 #serj-hat{
 	border-style:solid;
@@ -77,13 +75,20 @@ ul,ol{
 	float:right;
 	margin-right: 250px;
 }
+#active{
+	color:gray;
+	border-color:gray;
+}
+#active:hover{
+ background-color:transparent;
+}
 .sect{
 	float:left;
-	width:24.5%;
+	width:19%;
 	text-align:center;
 	padding-top:15px;
 	padding-bottom:20px;
-	font-size:30px;
+	font-size:23px;
 	border-style:inset;
 }
 .sect:hover{
@@ -118,7 +123,7 @@ ul,ol{
 .link-left{
 	padding-left:60px;
 	border-style:double;
-	margin-right:700px;
+	margin-right:650px;
 	margin-left:100px;
 	margin-bottom:50px;
 }
